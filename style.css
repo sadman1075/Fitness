@@ -262,76 +262,148 @@ nav ul li a {
 
 
 
-.trainer{
-    margin:88px 190px 88px 190px;
-   
+.trainer {
+    margin: 88px 190px 88px 190px;
+
 
 }
 
 
-.trainer-title{
-color: white;
-font-size: 3rem;
-text-align: center;
-margin-bottom: 14px;
-}
-.trainer-description{
-color: rgba(255, 255, 255, 0.5) ;
-font-size: 0.8rem;
-text-align: center;
-margin-top: 0px;
-margin-bottom: 58px;
-
+.trainer-title {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 14px;
 }
 
-.trainer-details{
-    background-color:rgba(255, 255, 255, 0.1) ;
+.trainer-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 58px;
 
-
-
-  
 }
 
-.trainer-div{
-   
-    margin:98px 50px 98px 10px;
+.trainer-details {
+    background-color: rgba(255, 255, 255, 0.1);
+
+
+
+
+}
+
+.trainer-div {
+
+    margin: 98px 50px 98px 10px;
 
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    
-   
-    
+
+
+
 }
 
 
 
 
-.trainer-img{
+.trainer-img {
     width: 100%;
-    height:335px;
+    height: 335px;
     margin: 20px;
-    border-radius:15px;
+    border-radius: 15px;
     /* padding: 20px; */
-   
-   
+
+
 }
 
 
 
-.trainer-name{
-color: white;
-font-size: 1.2rem;
-margin-top: -80px;
-margin-left: 40px;
-margin-bottom: 5px;
+.trainer-name {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: -80px;
+    margin-left: 40px;
+    margin-bottom: 5px;
 }
-.trainer-bio{
+
+.trainer-bio {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     margin-left: 40px;
 
 
+}
+
+
+/* footer */
+
+.main-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 66px 190px 0px 190px;
+
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.footer-title {
+    font-size: 4rem;
+    color: #E6533C;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    margin-top: 0px;
+}
+
+.get-started {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 39px;
+
+}
+
+.footer-list {
+    margin-top: 0px;
+}
+
+.footer-list li {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.line {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+
+}
+
+.footer-last {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    margin-top: 0px;
+    text-align: center;
 }
 
 
@@ -404,32 +476,38 @@ margin-bottom: 5px;
     .habits-type {
         flex-direction: column;
     }
+
     .exercise {
         margin: 66px 10px 60px 10px;
         background-color: #222222;
         border-radius: 10px;
     }
 
-    .exercise-details{
+    .exercise-details {
         flex-direction: column;
         gap: 31px;
     }
 
-    .trainer{
-        margin:88px 10px 88px 10px;
-       
-    
+    .trainer {
+        margin: 88px 10px 88px 10px;
+
+
     }
 
-    .trainer-div{
-   
+    .trainer-div {
+
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 40px;
+
+    }
+
+    .footer {
+        flex-direction: column;
         
     }
-
-
-
+    .main-footer{
+        padding: 10px 10px 0px 10px;
+    }
 
 }
