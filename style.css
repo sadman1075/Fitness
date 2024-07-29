@@ -264,7 +264,7 @@ nav ul li a {
 
 .bmi-details {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px 190px 10px 190px;
     background-color: rgba(34, 34, 34, 1);
 
