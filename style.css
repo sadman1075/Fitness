@@ -357,6 +357,71 @@ nav ul li a {
 }
 
 
+.plan{
+    margin: 70px 190px 70px 190px;
+}
+.plan-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan-title{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.plan-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 58px;
+
+}
+.plan-color{
+    color: white;
+}
+.plan-all-btn{
+    display: flex;
+    justify-content: center;
+    
+ 
+}
+.plan-btn1{
+    padding: 10px 80px;
+    border-radius: 5px;
+    background-color: #222222;
+    border: 1px solid rgb(210, 154, 12);
+    color: rgb(210, 154, 12);
+    margin-top: 105px;
+}
+.plan-btn2{
+    padding: 10px 80px;
+    border-radius: 5px;
+    background-color: #222222;
+    border: 1px solid rgb(210, 154, 12);
+    color: rgb(210, 154, 12);
+    margin-top: 70px;
+}
+.plan-btn3{
+    padding: 10px 80px;
+    border-radius: 5px;
+    background-color: #222222;
+    border: 1px solid rgb(210, 154, 12);
+    color: rgb(210, 154, 12);
+}
+
+.plan-info{
+    background-color: #222222;
+    padding: 30px 60px;
+    border-radius: 10px;
+
+}
+.plan-info:hover{
+    border: 1px solid rgb(210, 154, 12) ;
+
+}
 
 
 
@@ -610,6 +675,18 @@ nav ul li a {
         margin: 10px auto;
         width: 92%;
         
+    }
+    .plan{
+        margin: 100px 10px 100px 10px;
+    }
+
+    .plan-details{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .plan-info:hover{
+        border: 1px solid rgb(210, 154, 12) ;
+    
     }
    
 
